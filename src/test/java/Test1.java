@@ -12,8 +12,8 @@ class Test1 {
                 .post("/post")
 
                 .then()
-                .statusCode(200)
-        //.body(/* --> ваша проверка здесь <-- */)
+                .statusCode(201)
+       //.body(/* --> ваша проверка здесь <-- */)
         ;
     }
 }
